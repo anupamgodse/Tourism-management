@@ -1,0 +1,115 @@
+Tourism management system
+
+--Requrements
+
+-tour arranged by company and is assigned set of managers for various aspects of tour
+	so two managers -tour manager and contact person(who will be with tour)
+	
+-tour has boarding and deboarding points (branches only)
+
+-tour has a route	
+
+-tour has a doctor which is employee
+	
+	
+	
+	for each tour we have generate new tourid.
+	each tour stores following info
+		-places
+		-managers
+		-branches involved(?) (Cancelled)
+		-restaurents
+		-route
+		-boarding points
+		-transportation
+		-package and days
+		-facilities provided
+		-time table(?)
+		-doctor
+	
+-company has branches
+
+	each branch stores following info
+		-employees
+		-address
+		-branch id
+
+	each branch can be a pickup point of specific tour
+	branch will register customers for various tours
+	
+	branch will have employees
+
+each employee will have following info stored
+	-name
+	-id
+	-address
+	-branch name
+	-role(title)
+	-dob(age)
+	-salary
+	-qualification(highest degree)
+	-join date(for experience)
+	
+places will store following info
+	-name
+	-restaurents
+	-places to visit (subplaces)
+	-type of place
+	
+
+customer(family) wiil have following info to be stored
+	-name
+	-id
+	-dob
+	-address
+
+Manager will have  to contact to travel agency to ask if that can provide the 
+required mode of travel between places 
+
+travel agency will have following info
+	-name
+	-transportation available
+	-address
+	-contact info
+	
+Manager have to contact to restaurent if it can accomodate the count of tour and select 
+it accordingly
+
+restaurent info to be stored
+	-name
+	-address
+	-contact
+	-type
+	-facilities provided(?)
+	-distance from place
+	-capacity(?)
+
+
+
+
+/*overall manager(tour manager), workers(employees)
+services provivded
+1)restaurent info
+2)loadging info
+3)transport management - pickup place(if different)
+4)places - distance from major cities, places to visit
+5)time estimate(time table)
+6)personal care - children, aged people (caretakers for them) (?)
+7)cooking team (?)
+6)cleanliness team (?)
+8)manager
+9)customer
+10)travel agency info
+11)guide info - local guide, guide with your (?)
+12)entertainment people (?)
+13)luggage management people (?)
+14)bag for people with tag no (?)
+15)medical services - doctor nusre 
+16)current locations(automatic updates) (?)
+17)transport log (problems faced) (?)
+18)money management (?)
+19)banking partners (?)
+20)routes taken (alternate routes if taken) (?)
+21)connections in local places (?)
+22)grocery management  (?)
+*/
