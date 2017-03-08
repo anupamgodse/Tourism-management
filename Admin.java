@@ -8,7 +8,6 @@
  * @author anupam
  */
 public class Admin extends javax.swing.JFrame {
-
     /**
      * Creates new form Admin
      */
